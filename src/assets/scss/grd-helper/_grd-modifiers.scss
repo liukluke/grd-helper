@@ -1,0 +1,201 @@
+.grid {
+  @extend %grd-dg;
+
+  // INLINE GRID
+  &.inline {
+    @extend %grd-ig;
+  }
+
+  // AUTO FLOW
+  &.flow-row {
+    @extend %grd-af-r;
+    &--dense {
+      @extend %grd-af-rd;
+    }
+  }
+
+  &.flow-col {
+    @extend %grd-af-c;
+    &--dense {
+      @extend %grd-af-cd;
+    }
+  }
+
+  // CONTENT
+  &.cont-start {
+    &--justify {
+      @extend %grd-j-st;
+    }
+    &--align {
+      @extend %grd-a-st;
+    }
+  }
+
+  &.cont-end {
+    &--justify {
+      @extend %grd-j-e;
+    }
+    &--align {
+      @extend %grd-a-e;
+    }
+  }
+
+  &.cont-center {
+    &--justify {
+      @extend %grd-j-c;
+    }
+    &--align {
+      @extend %grd-a-c;
+    }
+  }
+
+  &.cont-stretch {
+    &--justify {
+      @extend %grd-j-sh;
+    }
+    &--align {
+      @extend %grd-a-sh;
+    }
+  }
+
+  &.cont-around {
+    &--justify {
+      @extend %grd-j-sa;
+    }
+    &--align {
+      @extend %grd-a-sa;
+    }
+  }
+
+  &.cont-between {
+    &--justify {
+      @extend %grd-j-sb;
+    }
+    &--align {
+      @extend %grd-a-sb;
+    }
+  }
+
+  &.cont-evenly {
+    &--justify {
+      @extend %grd-j-se;
+    }
+    &--align {
+      @extend %grd-a-se;
+    }
+  }
+
+  // ITEMS
+  &.items-start {
+    &--justify {
+      @extend %grd-ji-st;
+    }
+    &--align {
+      @extend %grd-ai-st;
+    }
+  }
+
+  &.items-end {
+    &--justify {
+      @extend %grd-ji-e;
+    }
+    &--align {
+      @extend %grd-ai-e;
+    }
+  }
+
+  &.items-center {
+    &--justify {
+      @extend %grd-ji-c;
+    }
+    &--align {
+      @extend %grd-ai-c;
+    }
+  }
+
+  &.items-stretch {
+    &--justify {
+      @extend %grd-ji-sh;
+    }
+    &--align {
+      @extend %grd-ai-sh;
+    }
+  }
+
+  // AUTO COLUMNS
+  &.auto-col {
+    @extend %grd-at-c;
+  }
+
+  &.auto-row {
+    @extend %grd-at-r;
+  }
+
+  // TEMPLATE
+  &.temp-col-3 {
+    @extend %grd-tc-3;
+  }
+
+  &.temp-col-3 {
+    @extend %grd-tc-4;
+  }
+
+  &.temp-row-3 {
+    @extend %grd-tr-3;
+  }
+
+  &.temp-row-4 {
+    @extend %grd-tr-4;
+  }
+}
+
+// SELF
+.grid-self {
+  &.start {
+    &--justify {
+      @extend %grd-js-st;
+    }
+    &--align {
+      @extend %grd-as-st;
+    }
+    &--place {
+      @extend %grd-ps-st;
+    }
+  }
+
+  &.end {
+    &--justify {
+      @extend %grd-js-e;
+    }
+    &--align {
+      @extend %grd-as-e;
+    }
+    &--place {
+      @extend %grd-ps-e;
+    }
+  }
+
+  &.center {
+    &--justify {
+      @extend %grd-js-c;
+    }
+    &--align {
+      @extend %grd-as-c;
+    }
+    &--place {
+      @extend %grd-ps-c;
+    }
+  }
+
+  &.stretch {
+    &--justify {
+      @extend %grd-js-sh;
+    }
+    &--align {
+      @extend %grd-as-sh;
+    }
+    &--place {
+      @extend %grd-ps-sh;
+    }
+  }
+}

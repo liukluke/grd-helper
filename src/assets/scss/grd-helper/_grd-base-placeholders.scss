@@ -1,0 +1,66 @@
+%grd-dg { display: grid }
+%grd-ig { display: inline-grid }
+
+/* Grid auto flow */
+%grd-af-r { grid-auto-flow: row }
+%grd-af-c { grid-auto-flow: column }
+%grd-af-rd { grid-auto-flow: row dense }
+%grd-af-cd { grid-auto-flow: column dense }
+
+/* Justify self */
+%grd-js-st { justify-self: start }
+%grd-js-e { justify-self: end }
+%grd-js-c { justify-self: center }
+%grd-js-sh { justify-self: stretch }
+
+/* Align self */
+%grd-as-st { align-self: start }
+%grd-as-e { align-self: end }
+%grd-as-c { align-self: center }
+%grd-as-sh { align-self: stretch }
+
+/* Place self */
+%grd-ps-st { place-self: start }
+%grd-ps-e { place-self: end }
+%grd-ps-c { place-self: center }
+%grd-ps-sh { place-self: stretch }
+
+/* Justify items */
+%grd-ji-st { justify-items: start }
+%grd-ji-e { justify-items: end }
+%grd-ji-c { justify-items: center }
+%grd-ji-sh { justify-items: stretch }
+
+/* Align items */
+%grd-ai-st { align-items: start }
+%grd-ai-e { align-items: end }
+%grd-ai-c { align-items: center }
+%grd-ai-sh { align-items: stretch }
+
+/* Justify content */
+%grd-j-st { justify-content: start }
+%grd-j-e { justify-content: end }
+%grd-j-c { justify-content: center }
+%grd-j-sh { justify-content: stretch }
+%grd-j-sa { justify-content: space-around }
+%grd-j-sb { justify-content: space-between }
+%grd-j-se { justify-content: space-evenly }
+
+/* Align content */
+%grd-a-st { align-content: start }
+%grd-a-e { align-content: end }
+%grd-a-c { align-content: center }
+%grd-a-sh { align-content: stretch }
+%grd-a-sa { align-content: space-around }
+%grd-a-sb { align-content: space-between }
+%grd-a-se { align-content: space-evenly }
+
+/* Grid auto columns / rows */
+%grd-at-c { grid-auto-columns: 1fr }
+%grd-at-r  { grid-auto-rows: 1fr }
+
+/* Template */
+%grd-tc-3 { grid-template-columns: repeat(3, 1fr) }
+%grd-tc-4  { grid-template-columns: repeat(4, 1fr) }
+%grd-tr-3  { grid-template-rows: repeat(3, 1fr) }
+%grd-tr-4  { grid-template-rows: repeat(4, 1fr) }
